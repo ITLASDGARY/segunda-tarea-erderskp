@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: test
         setup-command: ''
-        command: dotnet test
+        command: dotnet test Tarea_dia_2.csproj
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
