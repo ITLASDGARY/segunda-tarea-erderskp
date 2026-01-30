@@ -23,7 +23,14 @@ public class EvenOddDetector
         string resultado = ""; 
         
         // TODO: Usa el operador % y if/else para determinar si es PAR o IMPAR
-        
+        if (number % 2 == 0)
+        {
+            resultado = "PAR";
+        }
+        else
+        {
+            resultado = "IMPAR";
+        }
         return resultado;
     }
 }
